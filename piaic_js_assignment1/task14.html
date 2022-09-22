@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2 style="font-weight: 500;">Results</h2>
+    <script>
+        var a = 2, b = 1;
+        var result = 0
+        result = --a;
+        document.writeln("<p>The value of result: ", result, "</p>");
+
+        result = --a - --b;
+        document.writeln("<p>The value of result: ", result, "</p>");
+
+        result = --a - --b + ++b;
+        document.writeln("<p>The value of result: ", result, "</p>");
+        
+        result = --a - --b + ++b + b--;
+        document.writeln("<p>The value of result: ", result, "</p>");
+        
+    </script>
+</body>
+</html>
